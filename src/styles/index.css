@@ -1,0 +1,35 @@
+body{
+    background-image: url("../../public/images/background1.jpg");
+    background-size: cover;
+    
+}
+.profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    /* border: 1px solid black; */
+    background-image: url("../../public/images/blackDPrAVI.jpg");
+    background-size: cover;
+    background-position: 100%;
+    position: absolute;
+    left:500px
+}
+.h1{
+    position: absolute;
+    top:180px;
+    left: 460px;
+}
+.h2{
+    position: absolute;
+    top:240px;
+    left: 510px;
+}
+.shade{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+main div{
+    position: absolute;
+    top: 300px;
+    left: 520px;
+}
