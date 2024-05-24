@@ -12,24 +12,25 @@ body{
     background-size: cover;
     background-position: 100%;
     position: absolute;
-    left:500px
+    left:480px;
+    top: 120px;
 }
 .h1{
     position: absolute;
-    top:180px;
-    left: 460px;
+    top:20px;
+    left: 470px;
 }
 .h2{
     position: absolute;
-    top:240px;
-    left: 510px;
+    top:80px;
+    left: 530px;
 }
 .shade{
     background-color: rgba(0, 0, 0, 0.5);
-    
+    height: 100vh;
 }
 main div{
     position: absolute;
     top: 300px;
-    left: 520px;
+    left: 480px;
 }
