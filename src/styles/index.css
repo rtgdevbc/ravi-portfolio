@@ -1,7 +1,6 @@
 body{
     background-image: url("../../public/images/background1.jpg");
     background-size: cover;
-    
 }
 .profile{
     width: 150px;
@@ -11,8 +10,8 @@ body{
     background-size: cover;
     background-position: 100%;
     position: absolute;
-    left:500px;
-    top: 120px;
+    left:250px;
+    top: 50px;
 }
 .profile-shade:hover{
     background-color: rgba(0, 0, 0, 0);
@@ -28,28 +27,42 @@ body{
     width: 150px;
     border-radius: 150px;
     position: absolute;
-    left:548px;
-    top: 143px;
+    left:250px;
+    top: 50px;
     z-index: 1;
     transition-duration: 500ms;
     overflow: hidden;
 }
 .h1{
     position: absolute;
-    top:20px;
-    left: 470px;
+    top:60px;
+    left: 700px;
 }
 .h2{
     position: absolute;
-    top:80px;
-    left: 530px;
+    top:120px;
+    left: 700px;
 }
+
 .shade{
     background-color: rgba(0, 0, 0, 0.5);
     height: 100vh;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+
 }
-main div{
+main>div{
     position: absolute;
     top: 300px;
-    left: 480px;
+    left: 270px;
+}
+a{
+    margin-right: 10px;
+}
+header{
+    width: 200px;
+}
+main{
+    width: 900px;
 }
