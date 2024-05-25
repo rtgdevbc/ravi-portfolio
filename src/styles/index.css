@@ -16,6 +16,11 @@ body{
 }
 .profile-shade:hover{
     background-color: rgba(0, 0, 0, 0);
+    transform: translateX(150px);
+    transition-duration: 500ms;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
 }
  .profile-shade{
     background-color: rgba(0, 0, 0, 0.3);
@@ -26,6 +31,8 @@ body{
     left:548px;
     top: 143px;
     z-index: 1;
+    transition-duration: 500ms;
+    overflow: hidden;
 }
 .h1{
     position: absolute;
